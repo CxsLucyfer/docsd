@@ -14,6 +14,8 @@ WARNING:
 
 -->
 
+**Note:** this is the "per-architecture" repository for the `s390x` builds of [the `kibana` official image](https://hub.docker.com/_/kibana) -- for more information, see ["Architectures other than amd64?" in the official images documentation](https://github.com/docker-library/official-images#architectures-other-than-amd64) and ["An image's source changed in Git, now what?" in the official images FAQ](https://github.com/docker-library/faq#an-images-source-changed-in-git-now-what).
+
 # Quick reference
 
 -	**Maintained by**:  
@@ -24,8 +26,9 @@ WARNING:
 
 # Supported tags and respective `Dockerfile` links
 
--	[`8.12.1`](https://github.com/elastic/dockerfiles/blob/e15eb421da49ad627d48e5b3492948c76bcb8158/kibana/Dockerfile)
--	[`7.17.18`](https://github.com/elastic/dockerfiles/blob/3f49356df9e4ffaf56eed9722b8777eef574570b/kibana/Dockerfile)
+**WARNING:** THIS IMAGE *IS NOT SUPPORTED* ON THE `s390x` ARCHITECTURE
+
+[![s390x/kibana build status badge](https://img.shields.io/jenkins/s/https/doi-janky.infosiftr.net/job/multiarch/job/s390x/job/kibana.svg?label=s390x/kibana%20%20build%20job)](https://doi-janky.infosiftr.net/job/multiarch/job/s390x/job/kibana/)
 
 # Quick reference (cont.)
 
