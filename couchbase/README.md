@@ -14,6 +14,8 @@ WARNING:
 
 -->
 
+**Note:** this is the "per-architecture" repository for the `amd64` builds of [the `couchbase` official image](https://hub.docker.com/_/couchbase) -- for more information, see ["Architectures other than amd64?" in the official images documentation](https://github.com/docker-library/official-images#architectures-other-than-amd64) and ["An image's source changed in Git, now what?" in the official images FAQ](https://github.com/docker-library/faq#an-images-source-changed-in-git-now-what).
+
 # Quick reference
 
 -	**Maintained by**:  
@@ -30,6 +32,8 @@ WARNING:
 -	[`community-7.1.1`](https://github.com/couchbase/docker/blob/bfbb82c084ca3ada6252afbbcb3ca94bb65f1e58/community/couchbase-server/7.1.1/Dockerfile)
 -	[`7.0.5`, `enterprise-7.0.5`](https://github.com/couchbase/docker/blob/ca816b6ffa5c36007bd4b3386ec24df081a00ea0/enterprise/couchbase-server/7.0.5/Dockerfile)
 -	[`community-7.0.2`](https://github.com/couchbase/docker/blob/aec4494ab5280caf567997d72714f57572a6315b/community/couchbase-server/7.0.2/Dockerfile)
+
+[![amd64/couchbase build status badge](https://img.shields.io/jenkins/s/https/doi-janky.infosiftr.net/job/multiarch/job/amd64/job/couchbase.svg?label=amd64/couchbase%20%20build%20job)](https://doi-janky.infosiftr.net/job/multiarch/job/amd64/job/couchbase/)
 
 # Quick reference (cont.)
 
